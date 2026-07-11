@@ -1,0 +1,6 @@
+*.sh
+__pycache__/
+*.pyc
+.DS_Store
+*.wav
+archive/
