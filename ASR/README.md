@@ -1,9 +1,8 @@
 # Streaming ASR + Barge-In Engine — Project README
 
-A portfolio project building a real-time, interruptible speech-to-text pipeline
-tuned for gaming voice chat, using NVIDIA NeMo's cache-aware streaming ASR models.
-This README documents progress through **Step 6 (Barge-In)** — core interrupt
-detection confirmed working; latency instrumentation still being debugged.
+A portfolio project building a real-time, interruptible speech-to-text pipeline tuned for gaming voice chat, using NVIDIA NeMo's cache-aware streaming ASR models.
+
+This README documents progress through core interrupt detection confirmed working; latency instrumentation still being debugged.
 
 **Quick status:**
 
