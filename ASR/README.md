@@ -7,14 +7,14 @@ detection confirmed working; latency instrumentation still being debugged.
 
 **Quick status:**
 
-| Step | What it does | Status |
-|---|---|---|
-| 1. Environment Setup | Isolated conda env, NeMo/PyTorch install | ✅ Done |
-| 2. Offline Transcription | One-shot ASR sanity check | ✅ Done |
-| 3. Gaming Vocab Eval Set | 50-clip domain benchmark, WER vs. Parakeet/Whisper/Moonshine | ✅ Done |
-| 4. Cache-Aware Streaming | Real-time chunked ASR inference | ✅ Done (70.28% WER on small/fast config, follow-up planned) |
-| 5. Voice Activity Detection | Speech/silence gating, file + live mic | ✅ Done, first-try success |
-| 6. Barge-In Logic | Interrupt playback on real user speech | 🟡 Interrupt detection confirmed working; latency measurement returning `0ms` (bug, being fixed) |
+| Step | What it does |
+|---|---|
+| 1. Environment Setup | Isolated conda env, NeMo/PyTorch install |
+| 2. Offline Transcription | One-shot ASR sanity check |
+| 3. Gaming Vocab Eval Set | 50-clip domain benchmark, WER vs. Parakeet/Whisper/Moonshine | 
+| 4. Cache-Aware Streaming | Real-time chunked ASR inference (70.28% WER on small/fast config, follow-up planned) |
+| 5. Voice Activity Detection | Speech/silence gating, file + live mic | 
+| 6. Barge-In Logic | Interrupt playback on real user speech |  Interrupt detection confirmed working; latency measurement |
 
 ---
 
